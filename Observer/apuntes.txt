@@ -1,0 +1,10 @@
+que es?
+El patrón Observer permite que un objeto (llamado sujeto o Subject) mantenga una lista de dependientes (llamados observadores o Observers)
+y los notifique automáticamente de cualquier cambio en su estado, usualmente llamando a uno de sus métodos
+
+para que sirver?
+    -se utiliza para establecer una relación uno a muchos entre objetos,
+de manera que cuando un objeto cambie de estado, todos sus dependientes sean notificados y actualizados automáticamente.
+
+Como se usa?
+    -ver en main.py

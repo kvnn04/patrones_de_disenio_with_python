@@ -1,0 +1,26 @@
+SINGLETON.
+
+Este patron se encarga de hacer que una CLASE tenga una UNICA INSTANCIA en toda la aplicacion y proporcionar un PUNTO GLOBAL DE ACCESO a esa instacia.
+
+Cuándo usarlo:
+
+	-Cuando necesitas controlar el acceso a un recurso compartido, como una conexión a una base de datos o un archivo de configuración.
+
+	-Cuando una única instancia de una clase es suficiente para toda la aplicación.
+
+Cómo funciona:
+
+	-La clase restringe la creación de nuevas instancias asegurándose de que solo se pueda crear una.
+	
+	-La instancia única se almacena de forma estática dentro de la clase.
+	
+	-Proporciona un método estático para obtener esa única instancia.
+
+
+Ventajas
+Control centralizado de la instancia.
+Reduce el uso de memoria al evitar múltiples instancias.
+
+Desventajas
+Puede dificultar las pruebas unitarias, ya que su estado global puede interferir.
+Introduce una posible dependencia global no deseada.
