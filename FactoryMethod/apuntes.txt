@@ -1,0 +1,19 @@
+Este es un patrón de creación que proporciona una forma de delegar la instanciación de objetos a las subclases.
+
+que es?
+El Factory Method define un método que las subclases deben implementar para crear objetos. Esto permite que una clase delegue la 
+responsabilidad de instanciar objetos a las subclases, en lugar de hacerlo directamente.
+
+En otras palabras, en lugar de usar el operador new directamente, utilizas un método (una "fábrica") que se encarga de crear los objetos.
+
+¿Cuándo usar el Factory Method?
+
+Cuando necesitas flexibilidad: Si quieres que tu código sea extensible para manejar nuevos tipos de objetos sin
+modificar el código existente.
+
+Para evitar acoplamiento: Cuando una clase no debe saber qué clase concreta debe instanciar.
+
+Cuando el proceso de creación es complejo: Si necesitas realizar configuraciones o validaciones antes de crear el objeto.
+
+
+
