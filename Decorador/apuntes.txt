@@ -1,0 +1,17 @@
+Patrón Decorator (Decorador). Es un patrón de diseño estructural que permite agregar funcionalidad a un objeto de forma dinámica,
+sin modificar su estructura original. Es muy útil cuando quieres extender las capacidades de una clase sin usar herencia.
+
+Concepto del Patrón Decorator
+En lugar de modificar directamente una clase, envolves el objeto original con otros objetos que añaden funcionalidad.
+Cada decorador es una clase que implementa la misma interfaz o hereda de la misma clase base que el objeto que decorar
+
+
+¿Cuándo usar el Patrón Decorator?
+
+    -Cuando necesitas agregar o modificar el comportamiento de un objeto sin alterar su estructura.
+
+    -Cuando prefieres la composición sobre la herencia para extender funcionalidades.
+
+    -Cuando necesitas aplicar diferentes combinaciones de funcionalidades a los objetos de forma flexible.
+
+

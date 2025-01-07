@@ -1,0 +1,25 @@
+El Patrón Strategy separa el algoritmo de su contexto, delegando la lógica específica a clases independientes.
+
+El cliente no necesita saber cuál estrategia está usando; solo interactúa con una interfaz común.
+
+¿Para qué sirve?
+
+Sustituir condicionales complejos: Como if-else o switch, que seleccionan diferentes comportamientos en tiempo de ejecución.
+
+Intercambiar comportamientos fácilmente: Permite cambiar dinámicamente entre algoritmos sin modificar el código cliente.
+
+Cumplir el Principio de Abierto/Cerrado: Las estrategias están abiertas a extensión (puedes agregar nuevas estrategias sin modificar las existentes).
+------------------------------------------------------------------------------------------------------
+Ventajas
+
+Flexibilidad: Los algoritmos pueden cambiarse en tiempo de ejecución.
+
+Mantenimiento: Cada algoritmo está en su propia clase, haciendo que el código sea más modular y fácil de entender.
+
+Extensibilidad: Puedes agregar nuevas estrategias sin modificar el código existente.
+-------------------------------------------------------------------------------------------------------
+Desventajas del Patrón Strategy.
+
+Mayor número de clases: Cada estrategia requiere una clase propia, lo que puede aumentar la complejidad del proyecto.
+
+Puede ser excesivo: Si los algoritmos son muy simples, usar este patrón puede ser innecesario.
