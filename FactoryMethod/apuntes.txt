@@ -2,7 +2,7 @@ Este es un patrón de creación que proporciona una forma de delegar la instanci
 
 que es?
 
-El Factory Method define un método que las subclases deben implementar para crear objetos. Esto permite que una clase delegue la 
+El Factory Method define un método que las subclases deben implementar para crear objetos. Esto permite que una clase(esto seria un Interfaz?) delegue la 
 responsabilidad de instanciar objetos a las subclases, en lugar de hacerlo directamente.
 
 En otras palabras, en lugar de usar el operador new directamente, utilizas un método (una "fábrica") que se encarga de crear los objetos.

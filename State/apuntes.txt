@@ -1,0 +1,11 @@
+que es?
+
+El patrón State (Estado) permite a un objeto cambiar su comportamiento cuando su estado interno cambia.
+Es como si el objeto cambiara de clase en tiempo de ejecución. Esto se logra encapsulando los estados en
+clases separadas y haciendo que el objeto delegue su comportamiento en la clase correspondiente al estado actual.
+
+cuando usarlo?
+
+Cambio de comportamiento según el estado: Si un objeto necesita cambiar su comportamiento dependiendo de su estado interno.
+Evitación de estructuras condicionales complejas: Cuando tienes muchos if-else o switch-case para manejar los estados de un objeto.
+Necesidad de extender fácilmente el número de estados: Si se espera que se agreguen más estados en el futuro.
